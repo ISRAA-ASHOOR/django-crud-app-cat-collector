@@ -1,6 +1,7 @@
 from django.contrib import admin
-from .models import Cat, Feeding
+
+from .models import Cat, Feeding, Toy  # import the model
 
 admin.site.register(Cat)
-# Register the new Feeding model
 admin.site.register(Feeding)
+admin.site.register(Toy)
